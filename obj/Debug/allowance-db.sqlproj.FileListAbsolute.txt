@@ -1,0 +1,10 @@
+C:\Code\allowance-db\bin\Debug\allowance-db.dacpac
+C:\Code\allowance-db\bin\Debug\allowance_db.dll
+C:\Code\allowance-db\bin\Debug\allowance_db.pdb
+C:\Code\allowance-db\obj\Debug\allowance-db.sqlprojAssemblyReference.cache
+C:\Code\allowance-db\obj\Debug\Model.xml
+C:\Code\allowance-db\obj\Debug\refactor.xml
+C:\Code\allowance-db\obj\Debug\postdeploy.sql
+C:\Code\allowance-db\obj\Debug\predeploy.sql
+C:\Code\allowance-db\obj\Debug\allowance_db.dll
+C:\Code\allowance-db\obj\Debug\allowance_db.pdb

@@ -1,0 +1,41 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Create
+       [dbo].[Accounts] (Table)
+       [dbo].[ActivityStatus] (Table)
+       [dbo].[Roles] (Table)
+       [dbo].[Status] (Table)
+       [dbo].[TaskActivities] (Table)
+       [dbo].[TaskDays] (Table)
+       [dbo].[TaskDefinitions] (Table)
+       [dbo].[TaskGroups] (Table)
+       [dbo].[TaskWeeks] (Table)
+       [dbo].[TransactionCategories] (Table)
+       [dbo].[TransactionLog] (Table)
+       Default Constraint: unnamed constraint on [dbo].[Accounts] (Default Constraint)
+       Default Constraint: unnamed constraint on [dbo].[TaskActivities] (Default Constraint)
+       Default Constraint: unnamed constraint on [dbo].[TaskGroups] (Default Constraint)
+       Default Constraint: unnamed constraint on [dbo].[TransactionLog] (Default Constraint)
+       [dbo].[FK_Accounts_ToRoles] (Foreign Key)
+       [dbo].[FK_TaskActivities_ToActivityStatus] (Foreign Key)
+       [dbo].[FK_TaskActivities_ToTaskDays] (Foreign Key)
+       [dbo].[FK_TaskActivities_ToTaskDefinitions (Id)] (Foreign Key)
+       [dbo].[FK_TaskActivities_ToTaskGroups] (Foreign Key)
+       [dbo].[FK_TaskActivities_ToTaskWeeks] (Foreign Key)
+       [dbo].[FK_TaskDays_ToStatus] (Foreign Key)
+       [dbo].[FK_TaskDays_ToTaskWeeks] (Foreign Key)
+       [dbo].[FK_TaskDefinition_ToTaskGroups] (Foreign Key)
+       [dbo].[FK_TaskWeeks_ToStatus] (Foreign Key)
+       [dbo].[FK_TransactionLog_ToAccounts] (Foreign Key)
+       [dbo].[FK_TransactionLog_ToTransactionCategory] (Foreign Key)
+
+** Supporting actions
